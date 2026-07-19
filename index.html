@@ -17,46 +17,57 @@
   </head>
 
   <body>
-    <nav class="bg-[#F85606] text-white font-bold flex justify-between p-6">
-      <span class="text-xl" style="font-family: &quot;Pacifico&quot;, cursive">
-        Thapa Mart
+    <nav
+      class="bg-[#F85606] text-white font-bold flex justify-between items-center px-8 py-2"
+    >
+      <span class="text-2xl" style="font-family: &quot;Pacifico&quot;, cursive">
+        Thapa <br />
+        Mart
       </span>
 
-      <ul class="flex gap-10 text-xl">
+      <ul class="flex gap-12 text-xl items-center">
         <li>Home</li>
         <li>Product</li>
         <li>About</li>
         <li>Contact</li>
       </ul>
-      <!-- <i class="fa-solid fa-bars text-xl"></i> -->
-      <span class="text-2xl">
-        <i class="fa-solid fa-cart-shopping mr-6"></i>
-        <i class="fa-regular fa-user mr-6"></i>
+
+      <span class="text-2xl flex gap-6">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-regular fa-user"></i>
       </span>
     </nav>
     <main>
       <section class="w-full relative">
-         <img
-          class=" h-100 w-full  object-cover "
+        <div class="absolute bg-black/30 inset-0"></div>
+        <img
+          class="h-100 w-full object-cover"
           src="https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg"
-          alt="hero-image" />
-        <div class="absolute top-10 left-10" >
+          alt="hero-image"
+        />
+        <div class="absolute top-10 left-90 text-white text-center">
           <h2 class="text-4xl font-bold">
             Everything Fresh, Delivered <br />
             to Your Door
           </h2>
-          <p class="text-xl ">
+          <p class="text-xl font-semibold mt-7">
             Shop fresh fruits, vegetables, dairy products, beverages, snacks,
-            and daily essentials—all in one place. Enjoy quality products,
-            affordable prices, and fast delivery right to your doorstep.
+            and daily essentials—all <br />
+            in one place. Enjoy quality products, affordable prices, and <br />
+            fast delivery right to your doorstep.
           </p>
 
           <button
-            class="text-white bg-[#F85606] p-3.5 rounded-full text-xl font-bold">
+            class="text-white bg-[#F85606] p-2.5 rounded-full text-l font-bold mt-7"
+          >
             Shop Now
           </button>
         </div>
-
+      </section>
+      <section>
+        <div class="text-[#F85606] text-xl font-bold text-center m-4">
+          Why Choose Thapa Mart
+        </div>
       </section>
     </main>
   </body>
